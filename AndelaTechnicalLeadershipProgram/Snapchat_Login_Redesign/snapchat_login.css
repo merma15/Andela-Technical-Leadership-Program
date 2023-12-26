@@ -1,0 +1,120 @@
+/* snapchat_login.css */
+
+/* General Styles */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color:gainsboro; /* Change this to Snapchat's color scheme */
+   
+}
+#snapchat-log {
+   background: #fffc00;
+   width: 100%;
+}
+main {
+   display: flex;
+   align-items: center;
+   height: 100vh;
+   justify-content: space-evenly;
+}
+
+.login-section-1, .login-section-2, .login-section-3 {
+   text-align: center;
+   max-width: 270px;
+   padding: 20px;
+   background-color: #fff; /* Adjust this to Snapchat's color scheme */
+   
+}
+input[type="text"],
+input[type="password"] {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border-radius: 0; /* Remove border-radius */
+   border: none; /* Remove all borders */
+   border-bottom: 1px solid #ccc; /* Add bottom border */
+   box-sizing: border-box;
+   outline: none; /* Remove default input focus outline */
+}
+
+
+h1 {
+   font-size: 28px;
+   margin-bottom: 20px;
+   /* Add Snapchat colors, fonts, etc. */
+}
+
+.with-google button {
+   padding: 10px 20px;
+   background-color: black; /* Google's brand color */
+   color: yellow;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   width: 80%;
+   height: 40px;
+}
+
+.with-google button:hover {
+   background-color: #2b2d2f69;
+}
+.login-section-1 button[type=submit], .login-section-2 button[type=submit]{
+   background-color: rgb(195, 192, 192);
+   color: #fff;
+}
+
+.login-form {
+   margin-top: 20px;
+}
+
+label {
+   display: flex;
+   margin: 10px 0;
+   font-size: xx-small;
+}
+label, p, h3 {
+   color:rgb(139, 139, 139, 0.5);
+}
+h5, p {
+   font-size:xx-small;
+}
+
+button[type="submit"] {
+   background-color: #fffc00; /* Snapchat's brand color */
+   color: #000;
+   cursor: pointer;
+}
+
+input[type="submit"]:hover {
+   background-color: #ffd700;
+}
+
+form a,
+button {
+   margin: 15px;
+}
+
+form a {
+   text-decoration: none;
+   color: #4285f4; /* Link color */
+   font-size: xx-small;
+   float: right;
+   margin-top:3px;
+}
+.signup-option a {
+   color:black;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+button[type="submit"] {
+   width:70%;
+   height: 50px;
+   border: none;
+   border-radius: 30px;
+}
+
