@@ -1,0 +1,296 @@
+/* Global Reset */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* Body and Background */
+body {
+   background-image: url("/Whatsapp_Desktop_Redesign/whatsapp_background.png");
+   background-position: center;
+   background-size: 100%;
+   max-width: 100%;
+   font-family: cursive;
+}
+
+/* Menu Bar */
+.menu-bar {
+   width: 100%;
+   height: 20px;
+   font-size: small;
+   font-weight: bold;
+   color: rgba(255, 255, 255, 0.9);
+   background-color: rgba(251, 248, 245, 0.3);
+}
+
+/* Header */
+#laptop-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   background-color: rgba(255, 255, 255, 0.2);
+   color: #fff;
+}
+
+.left-home li {
+   display: inline;
+   float: left;
+   padding-left: 10px;
+}
+
+.right-home li {
+   list-style-type: none;
+   display: inline;
+   float: right;
+   padding-right: 10px;
+}
+
+/* Main Container */
+.main-container {
+   width: 90%;
+   margin: 30px;
+   background: rgb(250, 249, 249);
+   border-radius: 20px;
+   max-height: 100%;
+   display: flex;
+   overflow: hidden;
+   /* Hide overflow to prevent content from overflowing */
+}
+
+/* Right Section */
+.right-section {
+   width: 60%;
+   padding: 10px;
+   border-radius: 24px;
+   height: 705px;
+   background-color: #efe9e9;
+   font-size: x-small;
+}
+
+.right-section li {
+   float: left;
+   list-style-type: none;
+   display: inline;
+   padding-left: 20px;
+   margin-right: 10px;
+}
+
+#right-section-header {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-right: 50px;
+   /* Allows items to wrap when needed */
+}
+
+.user-info {
+   display: flex;
+   align-items: center;
+   margin-right: 10px;
+}
+
+.online-info,
+.online-info p {
+   display: flex;
+   text-align: center;
+   margin-top: 5px;
+   padding-right: 130px;
+}
+
+.online-info i {
+   margin-right: 3px;
+}
+
+#dark-red {
+   color: rgb(222, 33, 33);
+}
+
+#white-yellow {
+   color: rgb(210, 210, 14);
+}
+
+#light-green {
+   color: green;
+}
+
+/* Left Section */
+.left-section {
+   width: 40%;
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 20px;
+   border-radius: 15px 0px 0px 15px;
+   height: 705px;
+   display: flex;
+   flex-direction: column;
+}
+
+/*Left Header */
+#left-section-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+/* Traffic Lights */
+#traffic-lights {
+   display: inline-block;
+}
+
+#traffic-lights i {
+   margin-right: 5px;
+   font-size: 12px;
+}
+
+/* Subsections */
+.settings-list,
+.chats-list {
+   width: 20%;
+   height: 100%;
+   display: grid;
+}
+
+.settings-list {
+   margin-bottom: 20px;
+}
+
+/* Update styles for individual items within settings-list and chats-list if necessary */
+.settings-list ul,
+.chats-list ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.settings-list ul li,
+.chats-list ul li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   padding: 10px;
+   border-radius: 8px;
+   transition: background-color 0.3s ease;
+}
+
+.settings-list ul li:hover,
+.chats-list ul li:hover {
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.settings-list ul li img,
+.chats-list ul li img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.settings-list ul li h4,
+.chats-list ul li h4 {
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+.settings-list ul li em,
+.chats-list ul li em {
+   color: #666;
+   font-size: 0.9em;
+}
+
+.security-part {
+   display: inline-flex;
+   background-color: burlywood;
+   align-content: center;
+   border-radius: 20px;
+   font-size: small;
+   margin: 50px;
+}
+
+.chats-list p {
+   font-size: 10px;
+   display: flex;
+}
+
+.security-part i {
+   padding: 5px 15px;
+}
+
+h5 {
+   background-color: #fff;
+   width: 70px;
+   align-items: center;
+   margin: 40px;
+}
+
+#response {
+   background-color: white;
+   text-align: left;
+   margin: 20px 0;
+}
+
+#send {
+   text-align: right;
+   background-color: lightseagreen;
+   margin: 20px 0;
+}
+
+input[type="text"] {
+   width: 120%;
+   height: 35px;
+   margin: 0px 30px 40px 0px;
+   background-color: white;
+   border-radius: 20px;
+   border: 1px solid white;
+}
+
+input[type="search"] {
+   background-color: rgba(213, 204, 204, 0.5);
+   border: 1px solid rgba(213, 204, 204, 0.5);
+   float: center;
+   font-size: 15px;
+   border-radius: 10px;
+}
+
+#microfone {
+   padding-left: 50px;
+}
+
+/* Left Section */
+.left-section {
+   width: 40%;
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 20px;
+   border-radius: 15px 0px 0px 15px;
+   height: 705px;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto 1fr;
+   gap: 10px;
+   font-size: small;
+}
+
+/* Grid placement for header and traffic-lights */
+#left-section-header {
+   grid-area: 1 / 2 / 2 / 3;
+}
+
+#left-section-header li {
+   display: inline-flex;
+   padding-left: 15px;
+   float: right;
+}
+
+#traffic-lights {
+   grid-area: 1 / 1 / 2 / 2;
+}
+
+/* Settings-list and Chats-list */
+.settings-list {
+   grid-area: 2 / 1 / 3 / 2;
+}
+
+.chats-list {
+   grid-area: 2 / 2 / 3 / 3;
+}
